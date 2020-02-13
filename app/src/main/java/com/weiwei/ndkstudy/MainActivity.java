@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Example of a call to a native method
+        System.out.println("护手霜说实话");
         TextView tv = findViewById(R.id.sample_text);
         tv.setText(stringFromJNI());
     }
